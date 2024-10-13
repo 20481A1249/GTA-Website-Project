@@ -6,6 +6,7 @@
 html{
     scroll-behavior: smooth;
 }
+/* Nav-bar bg color */
 .navbar {
     background-color: black;
 }
@@ -27,6 +28,7 @@ html{
 .menu{
     overflow: hidden;
 }
+/* Nav-bar buynow btn */
 .n1{
     color: white;
     text-decoration: none;
@@ -34,6 +36,8 @@ html{
 .btn{
     margin-right: 3%;
 }
+
+/* Nav-bar dropdown background color and text color */
 .dropdown-item{
     color: white !important;
 }
@@ -41,9 +45,6 @@ html{
     color: black !important;
 
 }
-/* .c:hover{
-  color: black;
-} */
 .el1c a{
     text-decoration: none;
     color: whitesmoke;
@@ -56,13 +57,14 @@ html{
     padding-top: 5%;
     font-size: 20px;
 }
+/* Section1 logos */
 #f1{
     width: 13%;  
 }
 #f2{
     width: 11%;
 }
-
+/* Nav-bar buynow btn */
 .btn-outline-success{
     border-color: white !important;
     color: white !important;
@@ -193,6 +195,7 @@ html{
     box-shadow: 20px 20px 160px black;
     padding-top: 0px;
 }
+/* Section11 img */
 #p1,#p2{
     width: 100%;
     height: 80vh;
@@ -205,6 +208,7 @@ html{
     width: 75%;
     margin: 20px 0px;
 }
+/* section11 paragraph tag */
 #q{
     border: 2px solid;
     border-radius: 5px;
@@ -212,6 +216,7 @@ html{
     padding: 10px 20px 10px 20px;
     background-color: rgb(33, 31, 31);
 }
+/* Buynow heading */
 .h{
     background-image: linear-gradient(rgba(0,0,0,1.8),rgba(0,0,0,1.8));
     color: white;
@@ -314,17 +319,17 @@ footer{
 }
 
 
+/* text and img opacity */
 .text {
     opacity: 0;
     transition: opacity 3s ease-in-out;
 }
-
 .text.visible {
     opacity: 1;
 }
 
 
-
+/* Media Queries */
 @media (max-width: 480px) {
     
     .el1c a{
@@ -451,6 +456,7 @@ footer{
         overflow: hidden;
         
     }
+    /* img zoom by hovering */
     .el4a img:hover, .el5b img:hover, .el6a img:hover, .el7b img:hover, .el8a img:hover, .el9b img:hover, .el10a img:hover{
         transform: scale(1.3);
         transition-duration: 5s;
