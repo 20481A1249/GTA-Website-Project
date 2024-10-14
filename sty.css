@@ -330,7 +330,7 @@ footer{
 
 
 /* Media Queries */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     
     .el1c a{
         border: 2px solid;
@@ -611,3 +611,189 @@ footer{
 }
 
 
+
+/* media queries for >600px */
+@media (min-width: 600px) {
+    body {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .el1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .el1a img {
+        max-width: 48%;
+        height: auto;
+    }
+
+    .el1b {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+    .el1c{
+        width: 75%;
+    }
+    .el1c a {
+        border: 2px solid;
+        padding: 20px 40px;
+        font-size: 15px;
+        margin-right: 1%;
+        border-radius: 5px;
+    }
+    .el2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .el2a img {
+        width: 104%;
+        height: 100vh;
+        margin-top: 15%;
+    }
+
+    .el2b {
+        flex-basis: 80%;
+        padding: 10px;
+        margin-top: 15%;
+        font-size: 13px;
+    }
+    .el3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .el3a img{
+        width: 25%;
+        height: auto;
+    }
+    .el3b img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .el3a, .el3b {
+        flex-basis: 50%;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .el4 {
+        align-items: center;
+    }
+
+    .el4a img,.el5b img,.el6a img{
+        width: 100%;
+    }
+
+    .el4b{
+        flex-basis: 50%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    .el5a,.el6b,.el7a,.el8b,.el9a,.el10b{
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    #p1,#p2{
+        width: 100%;
+        height: 55vh;
+    }
+    #b1,#b2{
+        width: 70%;
+    }
+    #q{
+        font-size: 10px;
+    }
+    .el11{
+        height: 135vh;
+    }
+    .el11aa a,.el11bb a{
+        font-size: 15px;
+        padding: 20px 40px;
+    }
+    .el11aa,.el11bb{
+        font-size: 15px;
+    }
+    .el11a,.el11b{
+        height: 125vh;
+    }
+    .el12 p{
+        font-size: 15px;
+    }
+    .el12a{
+        height: 30vh;
+    }
+    .el12a div{
+        font-size: 5px;
+    }
+    footer{
+        height: 95vh;
+    }
+    .f1 a{
+        font-size: 12px;
+    }
+    .f21 i {
+        margin-right: 10px;
+    }
+}
+/* media query for > 992px */
+@media only screen and (min-width: 992px){
+    .el1b,.el1c a{
+        font-size: 25px;
+    }
+    .el2b,.el2a img{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .el2b img{
+        width: 36%;
+        height: 20vh;
+    }
+    .el3a{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .el3b img{
+        height: 103vh;
+        width: 57vh;
+    }
+    
+    .el4b,.el5a,.el6b,.el7a,.el8b,.el9a,.el10b{
+        font-size: 20px;
+    }
+    .el11aa,.el11bb{
+        font-size: 20px;
+    }
+    .el11aa a,.el11bb a{
+        font-size: 20px;
+        padding: 25px 70px;
+    }
+    #b1,#b2{
+        width: 90%;
+    }
+    #q{
+        font-size: 20px;
+    }
+    .el12 p{
+        font-size: 20px;
+    }
+    .el12a{
+        height: 29vh;
+        width: 25%;
+    }
+    .el12a div{
+        font-size: 10px;
+    }
+    .f1 a{
+        font-size: 20px;
+    }
+}
