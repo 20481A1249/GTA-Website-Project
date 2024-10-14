@@ -612,8 +612,8 @@ footer{
 
 
 
-/* media queries for >600px */
-@media (min-width: 600px) {
+/* media queries for >600px <768px */
+@media (max-width:768px) and (min-width:600px) {
     body {
         margin: 0 auto;
         max-width: 1200px;
@@ -745,21 +745,25 @@ footer{
         margin-right: 10px;
     }
 }
-/* media query for > 992px */
-@media only screen and (min-width: 992px){
+/* media query for > 768 < 1024px */
+@media only screen and (min-width: 768px) and (max-width:1024px){
     .el1b,.el1c a{
         font-size: 25px;
     }
-    .el2b,.el2a img{
-        font-size: 20px;
-        margin-top: 10px;
+    .el2b{
+        font-size: 14px;
+    }
+    
+    
+    .el2a img{
+        width: 100%;
     }
     .el2b img{
         width: 36%;
         height: 20vh;
     }
     .el3a{
-        font-size: 20px;
+        font-size: 16px;
         margin-left: 10px;
     }
     .el3b img{
@@ -775,13 +779,13 @@ footer{
     }
     .el11aa a,.el11bb a{
         font-size: 20px;
-        padding: 25px 70px;
+        padding: 25px 60px;
     }
     #b1,#b2{
         width: 90%;
     }
     #q{
-        font-size: 20px;
+        font-size: 10px;
     }
     .el12 p{
         font-size: 20px;
@@ -791,7 +795,7 @@ footer{
         width: 25%;
     }
     .el12a div{
-        font-size: 10px;
+        font-size: 7px;
     }
     .f1 a{
         font-size: 20px;
