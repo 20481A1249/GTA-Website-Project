@@ -13,9 +13,11 @@ html{
 .navbar-brand{
     width: 4%;
 }
-.navbar-toggler-icon{
-    background-color: white;
+.bar i{
+    font-size:24px;
+    color:white;
 }
+
 #logo{
     width: 100%;
 }
@@ -267,7 +269,7 @@ html{
     width: 30%;
 }
 footer{
-    border: 2px solid rgb(41, 40, 40);
+    border-top: 2px solid rgb(41, 40, 40);
     background-color: rgb(14, 13, 13);
     height: 70vh;
     
@@ -281,7 +283,7 @@ footer{
     text-decoration: none;
     padding-right: 10px;
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .f1 a:hover{
     color: orange;
@@ -299,11 +301,22 @@ footer{
 }
 .f2{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-.f21{
-    display: flex;
-    margin-top: 30px;
+
+
+.follow{
+    text-align: center;
+    padding-top: 2%;
+}
+.follow h3{
+    color: gray;
+}
+.follow a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 30px;
 }
 .f3{
     display: flex;
